@@ -1,0 +1,19 @@
+body {
+  background-color: grey;
+}
+
+h1 {
+  font-family: cursive;
+  font-size: 72px;
+  color: red;
+}
+
+h2 {
+  font-size: 35px;
+  font-family: fantasy;
+}
+
+p {
+  font-size: 17px;
+  font-family: fantasy;
+}
