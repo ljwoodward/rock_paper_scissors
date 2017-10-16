@@ -7,3 +7,7 @@ get '/play/:rps1/:rps2' do
   @outcome = rock_paper_scissors.play()
   erb(:result)
 end
+
+get '/' do
+  erb(:home)
+end
