@@ -12,8 +12,8 @@ class Rps
       return "Rock beats Scissors"
     elsif (@plyr1 == "paper" && @plyr2 == "scissors") || (@plyr1 == "scissors" && @plyr2 == "paper")
       return "Scissors beats Paper"
-    elsif (@plyr1 == "paper" && @plyr2 == "paper") || (@plyr1 == "scissors" && @plyr2 == "scissors") || (@plyr1 == "rock" && @plyr2 == "rock")
-      return "Try again"
+    elsif (@plyr1 == @plyr2)
+      return "Both the same, try again"
     else
       return "Invalid inputs"
     end

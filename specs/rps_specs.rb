@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require_relative '../models/rock_paper_scissors'
+require_relative '../models/rps'
 
 class TestRbs < Minitest::Test
 
@@ -20,11 +20,11 @@ class TestRbs < Minitest::Test
   end
 
   def test_rbs_paper_scissors
-    assert_equal("Scissors beats Rock" , @rps3.play() )
+    assert_equal("Scissors beats Paper" , @rps3.play() )
   end
 
   def test_rbs_scissors_scissors
-    assert_equal("Try again" , @rps4.play() )
+    assert_equal("Both the same, try again" , @rps4.play() )
   end
 
   def test_rbs_wrong_input
